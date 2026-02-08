@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = "maqboolsubair181/flask-app"
-        IMAGE_TAG  = "latest"
+        IMAGE_TAG  = "${BUILD_NUMBER}"
     }
 
     stages {
