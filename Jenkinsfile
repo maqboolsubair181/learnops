@@ -21,7 +21,7 @@ pipeline {
                  docker build \
                   -t $IMAGE_NAME:$IMAGE_TAG \
                   -f Flask_App/Dockerfile \
-                     Flask_App
+                  Flask_App
                 '''
             }
         }
